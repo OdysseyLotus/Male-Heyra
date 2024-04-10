@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>MaleHeyra</modId>
+		<key>MaleHeyraProbSlider</key>
+		<defaultValue>0.5</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/maleGenderProbability</xpath>
+				<value>
+					<maleGenderProbability>{MaleHeyraProbSlider}</maleGenderProbability>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>MaleHeyra</modId>
+		<key>MaleRongProbSlider</key>
+		<defaultValue>0.5</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/maleGenderProbability</xpath>
+				<value>
+					<maleGenderProbability>{MaleRongProbSlider}</maleGenderProbability>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+
+</Patch>

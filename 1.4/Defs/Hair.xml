@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HairDef>
+		<defName>HeyraHair11</defName>
+		<label>HeyraH11</label>
+		<styleGender>Male</styleGender>
+		<texPath>Heyra/Hair/HeyraHair11</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeHeyra</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>HeyraHair12</defName>
+		<!--chushi-->
+		<label>HeyraH12</label>
+		<styleGender>Male</styleGender>
+		<texPath>Heyra/Hair/HeyraHair12</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeHeyra</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>HeyraHair13</defName>
+		<label>HeyraH13</label>
+		<styleGender>Male</styleGender>
+		<texPath>Heyra/Hair/HeyraHair13</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeHeyra</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>HeyraHair14</defName>
+		<label>HeyraH14</label>
+		<styleGender>Male</styleGender>
+		<texPath>Heyra/Hair/HeyraHair14</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeHeyra</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>HeyraHair15</defName>
+		<label>HeyraH15</label>
+		<styleGender>Male</styleGender>
+		<texPath>Heyra/Hair/HeyraHair15</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeHeyra</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>HeyraHairRong03</defName>
+		<label>HeyraHR03</label>
+		<styleGender>Male</styleGender>
+		<texPath>Rong/Hair/RongHair03</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeRong</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>HeyraHairRong04</defName>
+		<label>HeyraHR04</label>
+		<styleGender>Male</styleGender>
+		<texPath>Rong/Hair/RongHair04</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeRong</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>HeyraHairRong05</defName>
+		<label>HeyraHR05</label>
+		<styleGender>Male</styleGender>
+		<texPath>Rong/Hair/RongHair05</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeRong</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>HeyraHairRong06</defName>
+		<label>HeyraHR06</label>
+		<styleGender>Male</styleGender>
+		<texPath>Rong/Hair/RongHair06</texPath>
+		<styleTags>
+			<li>HeyraHair</li>
+			<li>HeyraHairTypeRong</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Heyra -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/maleGenderProbability</xpath>
+		<value>
+			<maleGenderProbability>0.5</maleGenderProbability>
+		</value>
+	</Operation>
+	
+	<!-- Rong -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/maleGenderProbability</xpath>
+		<value>
+			<maleGenderProbability>0.5</maleGenderProbability>
+		</value>
+	</Operation>
+
+</Patch>
