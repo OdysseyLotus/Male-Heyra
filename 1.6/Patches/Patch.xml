@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Heyra -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<li>Heyra_Head_Male01</li>
+			<li>Heyra_Head_Male02</li>
+			<li>Heyra_Head_Male03</li>
+			<li>Heyra_Head_Male04</li>
+			<li>Heyra_Head_Male05</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Heyra_Head_Male01"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Heyra/Head/Male_Face01</graphicPath>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Heyra_Head_Male02"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Heyra/Head/Male_Face02</graphicPath>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Heyra_Head_Male03"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Heyra/Head/Male_Face03</graphicPath>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Heyra_Head_Male04"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Heyra/Head/Male_Face04</graphicPath>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Heyra_Head_Male05"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Heyra/Head/Male_Face05</graphicPath>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.02)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.048)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.05)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[@Name="Heyra_Story_Base"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RulePackDef[defName="Heyra_PawnNameGen"]/rulePack/rulesStrings</xpath>
+		<value>
+			<li>Surname->Ai</li>
+			<li>Surname->An</li>
+			<li>Surname->Ao</li>
+			<li>Surname->Ba</li>
+			<li>Surname->Ban</li>
+			<li>Surname->Bao</li>
+			<li>Surname->Bi</li>
+			<li>Surname->Bian</li>
+			<li>Surname->Bin</li>
+			<li>Surname->Bo</li>
+			<li>Surname->Bu</li>
+			<li>Surname->Cai</li>
+			<li>Surname->Cao</li>
+			<li>Surname->Cen</li>
+			<li>Surname->Chai</li>
+			<li>Surname->Chang</li>
+			<li>Surname->Chao</li>
+			<li>Surname->Che</li>
+			<li>Surname->Chen</li>
+			<li>Surname->Cheng</li>
+			<li>Surname->Chi</li>
+			<li>Surname->Cong</li>
+			<li>Surname->Cui</li>
+			<li>Surname->Dai</li>
+			<li>Surname->Dan</li>
+			<li>Surname->Dang</li>
+			<li>Surname->Deng</li>
+			<li>Surname->Di</li>
+			<li>Surname->Diao</li>
+			<li>Surname->Ding</li>
+			<li>Surname->Dong</li>
+			<li>Surname->Dou</li>
+			<li>Surname->Du</li>
+			<li>Surname->Duan</li>
+			<li>Surname->Fan</li>
+			<li>Surname->Fang</li>
+			<li>Surname->Fei</li>
+			<li>Surname->Fu</li>
+			<li>Surname->Gan</li>
+			<li>Surname->Gao</li>
+			<li>Surname->Ge</li>
+			<li>Surname->Geng</li>
+			<li>Surname->Gong</li>
+			<li>Surname->Gou</li>
+			<li>Surname->Gu</li>
+			<li>Surname->Guan</li>
+			<li>Surname->Gui</li>
+			<li>Surname->Guo</li>
+			<li>Surname->Ha</li>
+			<li>Surname->Hai</li>
+			<li>Surname->Han</li>
+			<li>Surname->Hang</li>
+			<li>Surname->Hao</li>
+			<li>Surname->Heng</li>
+			<li>Surname->Hong</li>
+			<li>Surname->Hou</li>
+			<li>Surname->Hu</li>
+			<li>Surname->Huang</li>
+			<li>Surname->Hui</li>
+			<li>Surname->Huo</li>
+			<li>Surname->Ji</li>
+			<li>Surname->Jia</li>
+			<li>Surname->Jian</li>
+			<li>Surname->Jiao</li>
+			<li>Surname->Jie</li>
+			<li>Surname->Jin</li>
+			<li>Surname->Jing</li>
+			<li>Surname->Ju</li>
+			<li>Surname->Kan</li>
+			<li>Surname->Kang</li>
+			<li>Surname->Ke</li>
+			<li>Surname->Kong</li>
+			<li>Surname->Kou</li>
+			<li>Surname->Kuang</li>
+			<li>Surname->Lai</li>
+			<li>Surname->Lang</li>
+			<li>Surname->Lao</li>
+			<li>Surname->Lei</li>
+			<li>Surname->Leng</li>
+			<li>Surname->Li</li>
+			<li>Surname->Lian</li>
+			<li>Surname->Liang</li>
+			<li>Surname->Liao</li>
+			<li>Surname->Ling</li>
+			<li>Surname->Liu</li>
+			<li>Surname->Long</li>
+			<li>Surname->Lou</li>
+			<li>Surname->Lu</li>
+			<li>Surname->Luan</li>
+			<li>Surname->Ma</li>
+			<li>Surname->Mai</li>
+			<li>Surname->Man</li>
+			<li>Surname->Mao</li>
+			<li>Surname->Men</li>
+			<li>Surname->Meng</li>
+			<li>Surname->Mi</li>
+			<li>Surname->Miao</li>
+			<li>Surname->Min</li>
+			<li>Surname->Ming</li>
+			<li>Surname->Mo</li>
+			<li>Surname->Na</li>
+			<li>Surname->Nan</li>
+			<li>Surname->Ni</li>
+			<li>Surname->Nie</li>
+			<li>Surname->Niu</li>
+			<li>Surname->Nong</li>
+			<li>Surname->Ou</li>
+			<li>Surname->Ouyang</li>
+			<li>Surname->Pan</li>
+			<li>Surname->Pang</li>
+			<li>Surname->Pei</li>
+			<li>Surname->Peng</li>
+			<li>Surname->Pi</li>
+			<li>Surname->Piao</li>
+			<li>Surname->Ping</li>
+			<li>Surname->Pu</li>
+			<li>Surname->Qi</li>
+			<li>Surname->Qian</li>
+			<li>Surname->Qiang</li>
+			<li>Surname->Qiao</li>
+			<li>Surname->Qing</li>
+			<li>Surname->Qu</li>
+			<li>Surname->Quan</li>
+			<li>Surname->Que</li>
+			<li>Surname->Ran</li>
+			<li>Surname->Rao</li>
+			<li>Surname->Ren</li>
+			<li>Surname->Rong</li>
+			<li>Surname->Ru</li>
+			<li>Surname->Ruan</li>
+			<li>Surname->Sang</li>
+			<li>Surname->Sha</li>
+			<li>Surname->Shan</li>
+			<li>Surname->Shang</li>
+			<li>Surname->Shao</li>
+			<li>Surname->She</li>
+			<li>Surname->Sheng</li>
+			<li>Surname->Shi</li>
+			<li>Surname->Shu</li>
+			<li>Surname->Shuai</li>
+			<li>Surname->Si</li>
+			<li>Surname->Song</li>
+			<li>Surname->Sui</li>
+			<li>Surname->Sun</li>
+			<li>Surname->Suo</li>
+			<li>Surname->Tai</li>
+			<li>Surname->Tan</li>
+			<li>Surname->Tang</li>
+			<li>Surname->Tao</li>
+			<li>Surname->Teng</li>
+			<li>Surname->Tian</li>
+			<li>Surname->Tong</li>
+			<li>Surname->Tu</li>
+			<li>Surname->Wan</li>
+			<li>Surname->Wang</li>
+			<li>Surname->Wei</li>
+			<li>Surname->Weng</li>
+			<li>Surname->Wu</li>
+			<li>Surname->Xi</li>
+			<li>Surname->Xian</li>
+			<li>Surname->Xiang</li>
+			<li>Surname->Xiao</li>
+			<li>Surname->Xie</li>
+			<li>Surname->Xin</li>
+			<li>Surname->Xing</li>
+			<li>Surname->Xiong</li>
+			<li>Surname->Xiu</li>
+			<li>Surname->Xu</li>
+			<li>Surname->Xuan</li>
+			<li>Surname->Yang</li>
+			<li>Surname->Yao</li>
+			<li>Surname->Yi</li>
+			<li>Surname->Yin</li>
+			<li>Surname->Ying</li>
+			<li>Surname->Yong</li>
+			<li>Surname->You</li>
+			<li>Surname->Yu</li>
+			<li>Surname->Yuan</li>
+			<li>Surname->Zan</li>
+			<li>Surname->Zang</li>
+			<li>Surname->Zeng</li>
+			<li>Surname->Zha</li>
+			<li>Surname->Zhai</li>
+			<li>Surname->Zhan<li>
+			<li>Surname->Zhang</li>
+			<li>Surname->Zhao</li>
+			<li>Surname->Zhen</li>
+			<li>Surname->Zheng</li>
+			<li>Surname->Zhong</li>
+			<li>Surname->Zhou</li>
+			<li>Surname->Zhu</li>
+			<li>Surname->Zhuang</li>
+			<li>Surname->Zhuo</li>
+			<li>Surname->Zong</li>
+			<li>Surname->Zou</li>
+			<li>Surname->Zu</li>
+			<li>Surname->Zuo</li>
+		</value>
+	</Operation>
+	
+	
+	<!-- Rong -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<li>Heyra_Head_Male01</li>
+			<li>Heyra_Head_Male02</li>
+			<li>Heyra_Head_Male03</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.01)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.048)</Male>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0,-0.01)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Heyra_Rong"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="Heyra_Rong_Story_Base"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	
+	<!-- Hair -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair01"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair02"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair03"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair04"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair05"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair06"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair07"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair08"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair09"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHair10"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHairRong01"]/hairGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="HeyraHairRong02"]/hairGender</xpath>
+		<value>
+			<styleGender>Any</styleGender>
+		</value>
+	</Operation>
+
+</Patch>
