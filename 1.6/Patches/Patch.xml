@@ -103,7 +103,7 @@
 			<bodyTypeMale>Male</bodyTypeMale>
 		</value>
 	</Operation>
-	
+	<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/RulePackDef[defName="Heyra_PawnNameGen"]/rulePack/rulesStrings</xpath>
 		<value>
@@ -306,6 +306,7 @@
 			<li>Surname->Zuo</li>
 		</value>
 	</Operation>
+	-->
 	
 	
 	<!-- Rong -->
